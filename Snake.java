@@ -22,15 +22,6 @@ public class Snake extends JFrame {
         setBackground(Color.BLACK);
         getContentPane().setBackground(Color.BLACK);
         
-        // Set application icon
-        try {
-            String iconPath = new File("application.icns").getAbsolutePath();
-            Image icon = new ImageIcon(iconPath).getImage();
-            setIconImage(icon);
-        } catch (Exception e) {
-            System.err.println("Could not load application icon: " + e.getMessage());
-        }
-        
         // Create and add loading panel with exact size
         LoadingPanel loadingPanel = new LoadingPanel();
         add(loadingPanel);
