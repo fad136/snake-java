@@ -1,0 +1,5 @@
+# Java compiled class files
+*.class
+
+# Package Files
+*.jar

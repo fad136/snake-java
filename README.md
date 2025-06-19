@@ -1,6 +1,2 @@
-# Java-Snake-Game
-Java Snake game source code
-
-https://zetcode.com/javagames/snake/  
-
-![Snake game screenshot](snake.png)
+# snake-java
+Fork of a snake game written in Java Swing.
